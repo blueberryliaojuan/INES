@@ -1,0 +1,55 @@
+.hero {
+  background-image: url(../img/ines-play-piano1920.jpg);
+  background-position: left center;
+  height: 850px;
+}
+@media (max-width: 768px) {
+  .hero {
+    height: 600px;
+    background-position: center center;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero {
+    background-image: url(../img/ines-play-piano1200.jpg);
+    height: 400px;
+    background-position: top center;
+  }
+}
+
+/* Hide the radio input but keep it accessible for toggle functionality */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+/* Styling for the toggle switch */
+.peer {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.peer-checked + div {
+  background-color: #3b82f6; /* Blue background when toggled */
+}
+
+.peer div {
+  transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.peer-checked div > div {
+  transform: translateX(1.5rem); /* Move toggle knob to the right */
+}
+
+.peer div > div {
+  transition: transform 0.3s ease-in-out;
+}

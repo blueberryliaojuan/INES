@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      <title>专业钢琴课 - Ines Piano Academy | Personalized Piano Lessons in
+      Vancouver
+    </title>
+    <meta
+      name="description"
+      content="通过专业钢琴课程，激发您的音乐潜能，了解更多关于我们的教学方法和学生成果。Discover Ines Piano Academy, where passion meets excellence in piano education. With over 20 years of teaching experience, Ines and her team provide personalized piano lessons for all ages and skill levels in Vancouver. Join us to unlock your musical potential!"
+    />
+    <meta
+      name="keywords"
+      content="温哥华钢琴老师，钢琴教学, 音乐教育, 音乐比赛"
+    />
+    <!-- Open Graph Meta -->
+    <meta property="og:title" content="专业钢琴教育 | 激发您的音乐潜能" />
+    <meta
+      property="og:description"
+      content="通过个性化的钢琴课程，帮助学生在音乐旅程中取得成功。"
+    />
+    <meta property="og:url" content="https://inespiano.juanliao.net" />
+    <meta
+      property="og:image"
+      content="https://example.com/images/piano-lessons.jpg"
+    />
+    <meta property="og:site_name" content="Ines Piano Academy" />
+    <meta property="og:type" content="website" />
+    <!--Icons-->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
+    />
+    <!--Fonts-->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Arimo"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Dancing Script"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.0/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/about.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="flex items-center justify-between p-4 sm:p-8 bg-eerieblack">
+      <div class="flex items-center">
+        <img
+          src="./img/logo-web.png"
+          alt="Ines Piano Academy Logo"
+          class="h-8 md:h-10"
+        />
+      </div>
+      <div class="flex">
+        <!-- Navigation Menu -->
+        <nav class="flex space-x-1 sm:space-x-4 text-ivory mr-4 sm:mr-8">
+          <!-- <a
+            href="index.html"
+            class="p-1 sm:p-2 nav-btn nav-active text-sm sm:text-base"
+            lang="en"
+            id="about-link-en"
+          >
+            About
+          </a>
+          <a
+            href="index.html"
+            class="p-1 sm:p-2 nav-btn nav-active text-sm sm:text-base"
+            lang="cn"
+            id="about-link-cn"
+            style="display: none"
+          >
+            关于我们
+          </a> -->
+
+          <!-- <a
+            href="./html/students.html"
+            class="p-1 sm:p-2 text-sm sm:text-base"
+            lang="en"
+            id="courses-link-en"
+          >
+            Students
+          </a> -->
+          <!-- <a
+            href="./html/students.html"
+            class="p-1 sm:p-2 text-sm sm:text-base"
+            lang="cn"
+            id="courses-link-cn"
+            style="display: none"
+          >
+            学生风采
+          </a>
+
+          <a
+            href="contact.html"
+            class="p-1 sm:p-2 text-sm sm:text-base"
+            lang="en"
+            id="contact-link-en"
+          >
+            Contact
+          </a>
+          <a
+            href="contact.html"
+            class="p-1 sm:p-2 text-sm sm:text-base"
+            lang="cn"
+            id="contact-link-cn"
+            style="display: none"
+          >
+            联系我们
+          </a> -->
+        </nav>
+
+        <!-- Language Switch -->
+        <div class="flex items-center space-x-2">
+          <span class="text-ivory text-sm sm:text-base">En</span>
+
+          <!-- Toggle Switch -->
+          <label class="relative inline-flex items-center cursor-pointer">
+            <input type="checkbox" id="language-toggle" class="sr-only" />
+            <div
+              class="w-12 h-6 bg-ivory rounded-full transition-all"
+              id="toggle-bg"
+            >
+              <!-- Small Circle -->
+              <div
+                class="absolute left-0 top-0 m-1 w-4 h-4 bg-rufous rounded-full shadow-sm transition-all"
+                id="toggle-circle"
+              ></div>
+            </div>
+          </label>
+
+          <span class="text-ivory text-sm sm:text-base">中</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative bg-center bg-cover bg-no-repeat hero">
+      <div
+        class="absolute inset-0 flex items-start justify-center lg:justify-end"
+      >
+        <div
+          class="bg-gray-800 bg-opacity-80 text-ivory p-4 sm:p-8 mt-8 sm:mt-16 md:mt-16 lg:mt-48 rounded-lg max-w-xs sm:max-w-md lg:max-w-lg"
+        >
+          <h1
+            class="text-xl sm:text-4xl font-bold dancing-script mb-4 sm:mb-8"
+            id="hero-heading-en"
+          >
+            Welcome to Ines Piano Academy
+          </h1>
+          <h1
+            class="text-xl sm:text-4xl font-bold dancing-script mb-4 sm:mb-8"
+            id="hero-heading-cn"
+            style="display: none"
+          >
+            欢迎来到Ines钢琴课堂
+          </h1>
+
+          <p class="text-base sm:text-lg" id="hero-text-en">
+            Discover the joy of music with personalized piano lessons tailored
+            to all skill levels.
+          </p>
+          <p
+            class="text-base sm:text-lg"
+            id="hero-text-cn"
+            style="display: none"
+          >
+            发现音乐的快乐，量身定制的钢琴课程
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Mission Section -->
+    <section class="py-4 sm:py-6 bg-eerieblack text-ivory text-center">
+      <h2 class="text-lg sm:text-2xl font-semibold" id="mission-en">
+        Our Mission
+      </h2>
+      <h2
+        class="text-lg sm:text-2xl font-semibold"
+        id="mission-cn"
+        style="display: none"
+      >
+        我们的使命
+      </h2>
+    </section>
+
+    <section
+      class="text-2xl text-eerieblack bg-ivory text-center w-full mx-auto leading-relaxed"
+    >
+      <p id="mission-text-en" class="text-lg sm:text-2xl p-4 sm:p-12 lg:p-24">
+        To provide exceptional piano education that fosters a lifelong love for
+        music, cultivates talent, and encourages personal growth.
+      </p>
+      <p
+        id="mission-text-cn"
+        class="text-lg sm:text-2xl p-4 sm:p-12 lg:p-24"
+        style="display: none"
+      >
+        致力于提供一流的钢琴教育，培养对音乐的终身热爱，提高技能，促进个人成长。
+      </p>
+    </section>
+    <!-- Student Showcase Section -->
+    <section class="py-6 bg-eerieblack text-ivory text-center text-2xl">
+      <h2 class="text-lg sm:text-2xl font-semibold" id="showcase-en">
+        Celebrating the Talents of Our Students
+      </h2>
+      <h2
+        class="text-lg sm:text-2xl font-semibold"
+        id="showcase-cn"
+        style="display: none"
+      >
+        学生风采
+      </h2>
+    </section>
+
+    <section
+      class="text-2xl text-eerieblack bg-ivory text-center w-full mx-auto leading-relaxed"
+    >
+      <!-- Welcome Section -->
+      <p class="text-lg sm:text-2xl p-4 sm:p-12 lg:px-24" id="showcase-text-en">
+        At Ines Piano Academy, we take immense pride in nurturing creativity,
+        skill, and passion in each student, guiding them toward success both on
+        and off the stage.
+      </p>
+      <p
+        class="text-lg sm:text-2xl p-4 sm:p-12 lgx:p-24"
+        id="showcase-text-cn"
+        style="display: none"
+      >
+        我们注重培养每位学生的创造力、技能与热情，助力他们在舞台上闪耀光芒，同时在舞台下收获成长与成功。
+      </p>
+
+      <div
+        class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 p-4 sm:px-12 lg:px-24"
+      >
+        <div class="flex justify-center">
+          <img
+            src="./img/concert01.jpg"
+            alt="concert 1"
+            class="rounded-lg w-full h-auto object-cover"
+          />
+        </div>
+        <div class="flex justify-center">
+          <img
+            src="./img/concert02.jpg"
+            alt="concert 2"
+            class="rounded-lg w-full h-auto object-cover"
+          />
+        </div>
+        <div class="flex justify-center">
+          <img
+            src="./img/concert03.jpg"
+            alt="concert 3"
+            class="rounded-lg w-full h-auto object-cover"
+          />
+        </div>
+      </div>
+
+      <!-- Performances Section -->
+      <section class="py-6 bg-eerieblack text-ivory text-center text-2xl">
+        <h2 class="text-lg sm:text-2xl font-semibold" id="performances-en">
+          Students Performances
+        </h2>
+        <h2
+          class="text-lg sm:text-2xl font-semibold"
+          id="performances-cn"
+          style="display: none"
+        >
+          学生表演
+        </h2>
+      </section>
+
+      <p
+        class="text-lg sm:text-2xl p-4 sm:p-12 lg:px-24"
+        id="performances-text-en"
+      >
+        From captivating solo recitals to inspiring group performances, our
+        students have showcased their talent in various concerts and events.
+        Each performance reflects their dedication and the guidance they’ve
+        received throughout their musical journey.
+      </p>
+      <p
+        class="text-lg sm:text-2xl p-4 sm:p-12 lg:px-24"
+        id="performances-text-cn"
+        style="display: none"
+      >
+        从精彩的独奏音乐会到激励人心的小组演出，我们的学生在各类音乐会和活动中尽情展现才华。每一场表演都彰显了他们的热情、努力以及在音乐旅程中所汲取的宝贵经验。
+      </p>
+
+      <div
+        class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 p-4 sm:px-12 lg:px-24"
+      >
+        <div class="flex justify-center">
+          <img
+            src="./img/student01.jpg"
+            alt="student 1"
+            class="rounded-lg w-full h-auto object-cover"
+          />
+        </div>
+        <div class="flex justify-center">
+          <img
+            src="./img/student02.jpg"
+            alt="student 2"
+            class="rounded-lg w-full h-auto object-cover"
+          />
+        </div>
+        <div class="flex justify-center">
+          <img
+            src="./img/student03.jpg"
+            alt="student 3"
+            class="rounded-lg w-full h-auto object-cover"
+          />
+        </div>
+      </div>
+
+      <!-- Awards and Achievements Section -->
+      <section class="py-6 bg-eerieblack text-ivory text-center text-2xl">
+        <h2 class="text-lg sm:text-2xl font-semibold" id="awards-en">
+          Students Awards and Achievements
+        </h2>
+        <h2
+          class="text-lg sm:text-2xl font-semibold"
+          id="awards-cn"
+          style="display: none"
+        >
+          学生奖项与成就
+        </h2>
+      </section>
+
+      <p class="text-lg sm:text-2xl p-4 sm:p-12 lg:px-24" id="awards-text-en">
+        Our students have excelled in prestigious competitions, earning
+        recognition in events like Kiwanis, Little Mozart, and the Canada
+        Festival. Their hard work and outstanding results inspire everyone in
+        our academy.
+      </p>
+      <p
+        class="text-lg sm:text-2xl p-4 sm:p-12 lg:px-24"
+        id="awards-text-cn"
+        style="display: none"
+      >
+        我们的学生在享有盛誉的比赛中表现优异，获得了Kiwanis、Little Mozart 和
+        Canada
+        Festival等活动的认可。他们的努力和卓越成绩不仅为自己赢得荣誉，也激励了在Ines学习的每一位同学。
+      </p>
+      <div
+        class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 p-4 sm:px-12 lg:px-24"
+      >
+        <div class="flex justify-center">
+          <img
+            src="./img/achieve01.jpg"
+            alt="award 1"
+            class="rounded-lg w-full h-auto object-cover"
+          />
+        </div>
+        <div class="flex justify-center">
+          <img
+            src="./img/achieve02.jpg"
+            alt="award 2"
+            class="rounded-lg w-full h-auto object-cover"
+          />
+        </div>
+        <div class="flex justify-center">
+          <img
+            src="./img/achieve03.jpg"
+            alt="award 3"
+            class="rounded-lg w-full h-auto object-cover"
+          />
+        </div>
+        <div class="flex justify-center">
+          <img
+            src="./img/achieve04.jpg"
+            alt="award 4"
+            class="rounded-lg w-full h-auto object-cover"
+          />
+        </div>
+        <div class="flex justify-center">
+          <img
+            src="./img/achieve05.jpg"
+            alt="award 5"
+            class="rounded-lg w-full h-auto object-cover"
+          />
+        </div>
+        <div class="flex justify-center">
+          <img
+            src="./img/achieve06.jpg"
+            alt="award 6"
+            class="rounded-lg w-full h-auto object-cover"
+          />
+        </div>
+      </div>
+
+      <!-- Words from Students Section -->
+      <section class="py-6 bg-eerieblack text-ivory text-center text-2xl">
+        <h2 class="text-lg sm:text-2xl font-semibold" id="words-en">
+          Words from Our Students
+        </h2>
+        <h2
+          class="text-lg sm:text-2xl font-semibold"
+          id="words-cn"
+          style="display: none"
+        >
+          学生寄语
+        </h2>
+      </section>
+
+      <blockquote
+        class="text-xl sm:text-2xl italic text-gray-700 border-l-4 p-4 sm:p-12 lg:p-24"
+      >
+        <p id="quote-en">
+          "Learning piano at Ines Piano Academy has been a transformative
+          experience. The personalized guidance and encouragement helped me
+          reach my potential."
+          <span class="block text-right mt-4 font-semibold"
+            >— Emily, Grade 10</span
+          >
+        </p>
+        <p id="quote-cn" style="display: none">
+          “跟Ines老师学习钢琴是非常快乐的。她因材施教，根据我们的程度来安排课程，并且总是鼓励我们。这帮助了我在音乐道路上不断成长。”
+          <span class="block text-right mt-4 font-semibold"
+            >——Emily，10年级</span
+          >
+        </p>
+      </blockquote>
+
+      <!-- Call to Action -->
+      <!-- <div class="mt-8">
+        <a
+          href="contact.html"
+          class="inline-block text-xl font-bold text-ivory bg-eerieblack rounded-full px-8 py-4 hover:bg-gray-700 transition"
+          id="contact-en"
+        >
+          Contact Us
+        </a>
+        <a
+          href="contact.html"
+          class="inline-block text-xl font-bold text-ivory bg-eerieblack rounded-full px-8 py-4 hover:bg-gray-700 transition"
+          id="contact-cn"
+          style="display: none"
+        >
+          联系我们
+        </a>
+      </div> -->
+    </section>
+
+    <!-- Slogan Section -->
+    <section
+      class="py-6 bg-eerieblack text-ivory text-center text-lg sm:text-2xl"
+    >
+      <h2 id="slogan-en">Where Passion Meets Excellence</h2>
+      <h2 id="slogan-cn" style="display: none">师资介绍</h2>
+    </section>
+
+    <!-- Self Introduction Section -->
+    <section class="grid lg:grid-cols-2 bg-ivory items-center p-8 sm:p-12">
+      <div class="m-4 sm:m-12 lg:m-24">
+        <p class="dancing-script text-2xl sm:text-3xl mb-8">Hi, I’m Ines.</p>
+        <p class="text-lg sm:text-2xl mb-4" id="self-intro-text-en">
+          I am a passionate piano teacher with over 20 years of experience,
+          committed to inspiring and empowering students to reach their full
+          potential.
+        </p>
+        <p
+          class="text-lg sm:text-2xl mb-4"
+          id="self-intro-text-cn"
+          style="display: none"
+        >
+          我是一位热爱音乐的钢琴老师，拥有超过20年的教学经验，致力于帮助学生激发潜能，实现音乐梦想。
+        </p>
+        <p class="text-lg sm:text-2xl mb-4" id="self-intro-p1-en">
+          As a senior registered piano teacher with the British Columbia Music
+          Teachers Association (BCRMTA) and the Royal Conservatory of Music
+          (RCM) in Canada, I bring professionalism and expertise to every
+          lesson. Additionally, I am an instructor for the Canadian Young
+          Artists Model Award.
+        </p>
+        <p
+          class="text-lg sm:text-2xl mb-4"
+          id="self-intro-p1-cn"
+          style="display: none"
+        >
+          作为加拿大BC省音乐教师协会（BCRMTA）和加拿大皇家音乐学院（RCM）的注册钢琴教师，我以专业细致且富有耐心的教学风格深受学生和家长的认可。同时，我还是加拿大青少年艺术家模范奖导师，多年来培养了众多优秀的音乐人才。
+        </p>
+        <p class="text-lg sm:text-2xl mb-4" id="self-intro-p2-en">
+          I hold a bachelor’s degree in piano and have served as an associate
+          professor at a school of arts, as well as a judge for piano grade
+          examinations. My students have achieved outstanding success, earning
+          awards in prestigious competitions such as Kiwanis, Little Mozart,
+          Crescendo, Elite International Competition, and the Canada Festival.
+        </p>
+        <p
+          class="text-lg sm:text-2xl mb-4"
+          id="self-intro-p2-cn"
+          style="display: none"
+        >
+          我毕业于知名音乐学院钢琴系，曾任艺术学院副教授，并担任钢琴考级评委。我的学生在众多国际和本地比赛中屡获佳绩🥇🥇🥇，包括
+          Kiwanis、Little Mozart、Crescendo、Elite International Competition 和
+          Canada Festival 等重要赛事。
+        </p>
+        <p class="text-lg sm:text-2xl mb-4" id="self-intro-p3-en">
+          Known for my professional, rigorous, and engaging teaching style, I am
+          highly regarded by both children and parents. I specialize in
+          tailoring lessons to each student’s unique abilities and needs,
+          creating personalized and scientific teaching plans that enable rapid
+          and significant progress in a short time.
+        </p>
+        <p
+          class="text-lg sm:text-2xl mb-4"
+          id="self-intro-p3-cn"
+          style="display: none"
+        >
+          我的教学方法结合了专业性与趣味性，深受学生和家长的喜爱。我注重因材施教，根据每位学生的特点和需求，科学定制个性化教学方案，帮助他们在短时间内显著提升演奏水平，同时培养对音乐的热爱与自信。
+        </p>
+      </div>
+      <div class="flex justify-center rounded-lg">
+        <!-- Custom size for larger circular image -->
+        <img
+          src="./img/photo-with-dog.jpg"
+          alt="Ines photo with her pet dog"
+          class="rounded-full w-[200px] sm:w-[480px] object-cover"
+        />
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer
+      class="bg-eerieblack text-ivory py-6 mx-auto flex flex-col md:flex-row justify-center md:justify-between items-center"
+    >
+      <!-- Logo and Contact Information Section (Left) -->
+      <div class="flex flex-row items-center justify-start mb-4 md:mb-0">
+        <a href="./index.html" class="mr-4">
+          <img src="./img/WechatQR.png" alt="" class="w-20" />
+        </a>
+        <div class="text-center md:text-left">
+          <p class="text-ivory"><i class="fas fa-phone"></i> 778-8555-384</p>
+          <p><i class="fas fa-envelope"></i> ines@163.com</p>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./js/tailwindconfig.js"></script>
+    <script>
+      // Handle language switch
+      const toggleInput = document.getElementById("language-toggle");
+      const toggleBg = document.getElementById("toggle-bg");
+      const toggleCircle = document.getElementById("toggle-circle");
+
+      const elementsToTranslate = {
+        "about-link-en": " ",
+        "about-link-cn": " ",
+        "courses-link-en": " ",
+        "courses-link-cn": " ",
+        "contact-link-en": " ",
+        "contact-link-cn": " ",
+        "hero-heading-en": " ",
+        "hero-heading-cn": " ",
+        "hero-text-en": "",
+        "hero-text-cn": "",
+
+        "mission-en": "",
+        "mission-cn": "",
+        "mission-text-en": "",
+        "mission-text-cn": "",
+        "showcase-en": "",
+        "showcase-cn": "",
+        "showcase-text-en": "",
+        "showcase-text-cn": "",
+        "performances-en": "",
+        "performances-cn": "",
+        "performances-text-en": "",
+        "performances-text-cn": "",
+        "awards-en": "",
+        "awards-cn": "",
+        "awards-text-en": "",
+        "awards-text-cn": "",
+        "words-en": "",
+        "words-cn": "",
+        "slogan-en": "",
+        "slogan-cn": "",
+        "quote-en": "",
+        "quote-cn": "",
+        "self-intro-text-en": "",
+        "self-intro-text-cn": "",
+        "self-intro-p1-en": "",
+        "self-intro-p1-cn": "",
+        "self-intro-p2-en": "",
+        "self-intro-p2-cn": "",
+        "self-intro-p3-en": "",
+        "self-intro-p3-cn": "",
+      };
+
+      // Function to handle the toggle switch behavior
+      toggleInput.addEventListener("change", () => {
+        const isChecked = toggleInput.checked;
+        if (toggleInput.checked) {
+          toggleCircle.classList.add("translate-x-6");
+          console.log("Switched to 中文");
+        } else {
+          toggleCircle.classList.remove("translate-x-6");
+          console.log("Switched to English");
+        }
+
+        for (const [id] of Object.entries(elementsToTranslate)) {
+          const element = document.getElementById(id);
+          // 如果元素不存在，跳过当前循环
+          if (!element) {
+            continue;
+          }
+          if (isChecked) {
+            element.style.display = id.includes("-cn") ? "block" : "none";
+          } else {
+            element.style.display = id.includes("-en") ? "block" : "none";
+          }
+        }
+      });
+    </script>
+  </body>
+</html>

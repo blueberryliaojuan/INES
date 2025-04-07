@@ -1,0 +1,100 @@
+.hero {
+  height: 850px;
+  background-color: var(--ivory);
+  background-image: url(../img/ines-play-piano1920.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center left;
+  position: relative;
+}
+
+.hero .hero-content {
+  width: 500px;
+  height: 300px;
+  background-color: rgba(25, 25, 25, 0.7);
+  position: absolute;
+  right: 10%;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 10px;
+  padding: 10px 30px 30px;
+}
+.welcome {
+  color: var(--ivory);
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+.welcome-strong {
+  font-size: 56px;
+  font-weight: 900;
+  font-family: "Dancing Script", cursive;
+}
+.slogan {
+  height: 100px;
+  line-height: 100px;
+  background-color: var(--eerieblack);
+  color: var(--ivory);
+  font-size: 28px;
+  text-align: center;
+  /* text-transform: uppercase; */
+  font-family: "Dancing Script", cursive;
+}
+.mission {
+  height: 210px;
+  line-height: 210px;
+  /* padding: 0 20px; */
+  text-align: center;
+  font-weight: 900;
+  background-color: var(--ivory);
+  /* background-color: rgba(146, 173, 148, 0.3); */
+}
+.value {
+  height: 250px;
+  padding: 40px 100px;
+  background-color: var(--ivory);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.value div {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: rgba(146, 173, 148, 0.3);
+  text-align: center;
+  line-height: 120px;
+  font-family: "Dancing Script", cursive;
+  font-size: 22px;
+  color: var(--resedagreen);
+}
+.value div:nth-of-type(2n + 1) {
+  background-color: rgba(116, 139, 117, 0.6);
+  color: var(--ivory);
+}
+.self-intro {
+  height: 700px;
+  background-color: var(--ivory);
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+}
+.self-intro .into-greet {
+  margin: 150px auto 40px;
+  width: 600px;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.self-intro .into-text {
+  font-size: 24px;
+  margin: auto;
+  width: 600px;
+  margin-bottom: 20px;
+}
+
+.self-intro .self-photo {
+  margin: auto;
+}
+.self-intro .self-photo img {
+  height: 600px;
+}

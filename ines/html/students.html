@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      About Us - Ines Piano Academy | Personalized Piano Lessons in Vancouver
+    </title>
+    <meta
+      name="description"
+      content="Discover Ines Piano Academy, where passion meets excellence in piano education. With over 20 years of teaching experience, Ines and her team provide personalized piano lessons for all ages and skill levels in Vancouver. Join us to unlock your musical potential!"
+    />
+
+    <!--Icons-->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
+    />
+    <!--Fonts-->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Arimo"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Dancing Script"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.0/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/about.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="flex items-center justify-between p-4 sm:p-8 bg-eerieblack">
+      <div class="flex items-center">
+        <img
+          src="./img/logo-web.png"
+          alt="Ines Piano Academy Logo"
+          class="h-10"
+        />
+      </div>
+      <div class="flex">
+        <!-- Navigation Menu -->
+        <nav class="flex space-x-1 sm:space-x-4 text-ivory mr-4 sm:mr-8">
+          <a
+            href="index.html"
+            class="p-1 sm:p-2 nav-btn nav-active"
+            lang="en"
+            id="about-link-en"
+          >
+            About
+          </a>
+          <a
+            href="index.html"
+            class="p-1 sm:p-2 nav-btn"
+            lang="cn"
+            id="about-link-cn"
+            style="display: none"
+          >
+            关于我们
+          </a>
+
+          <a
+            href="./html/students.html"
+            class="p-1 sm:p-2 nav-active"
+            lang="en"
+            id="courses-link-en"
+          >
+            Students
+          </a>
+          <a
+            href="./html/students.html"
+            class="p-1 sm:p-2 nav-active"
+            lang="cn"
+            id="courses-link-cn"
+            style="display: none"
+          >
+            学生风采
+          </a>
+
+          <a
+            href="contact.html"
+            class="p-1 sm:p-2"
+            lang="en"
+            id="contact-link-en"
+          >
+            Contact
+          </a>
+          <a
+            href="contact.html"
+            class="p-1 sm:p-2"
+            lang="cn"
+            id="contact-link-cn"
+            style="display: none"
+          >
+            联系我们
+          </a>
+        </nav>
+
+        <!-- Language Switch -->
+        <div class="flex items-center space-x-2">
+          <span class="text-white">En</span>
+
+          <!-- Toggle Switch -->
+          <label class="relative inline-flex items-center cursor-pointer">
+            <input type="checkbox" id="language-toggle" class="sr-only" />
+            <div
+              class="w-12 h-6 bg-ivory rounded-full transition-all"
+              id="toggle-bg"
+            >
+              <!-- Small Circle -->
+              <div
+                class="absolute left-0 top-0 m-1 w-4 h-4 bg-rufous rounded-full shadow-sm transition-all"
+                id="toggle-circle"
+              ></div>
+            </div>
+          </label>
+
+          <span class="text-white">中</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative bg-center bg-cover bg-no-repeat hero">
+      <div
+        class="absolute inset-0 flex items-start lg:items-center justify-center lg:justify-end"
+      >
+        <div
+          class="bg-gray-800 bg-opacity-80 text-ivory p-8 mt-16 sm:mr-4 lg:mr-8 md:mr-12 xl:mr-24 2xl:mr-36 rounded-lg max-w-md"
+        >
+          <h1
+            class="text-4xl font-bold dancing-script mb-8"
+            id="hero-heading-en"
+          >
+            Welcome to Ines Piano Academy
+          </h1>
+          <h1
+            class="text-4xl font-bold dancing-script mb-8"
+            id="hero-heading-cn"
+            style="display: none"
+          >
+            欢迎来到Ines钢琴课堂
+          </h1>
+
+          <p class="text-lg" id="hero-text-en">
+            Discover the joy of music with personalized piano lessons tailored
+            to all skill levels.
+          </p>
+          <p class="text-lg" id="hero-text-cn" style="display: none">
+            发现音乐的快乐，量身定制的钢琴课程
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Slogan Section -->
+    <section class="py-6 bg-gray-900 text-white text-center text-2xl">
+      <p id="slogan-en">Where Passion Meets Excellence</p>
+      <p id="slogan-cn" style="display: none">激情与卓越的碰撞</p>
+    </section>
+
+    <!-- Self Introduction Section -->
+    <section class="grid lg:grid-cols-2 bg-ivory items-center p-8 sm:p-12">
+      <div class="m-4 sm:m-12 lg:m-24">
+        <p class="dancing-script text-3xl mb-8">Hi, I’m Ines.</p>
+        <p class="text-2xl mb-4" id="self-intro-text-en">
+          I am a passionate piano teacher with over 20 years of experience,
+          committed to inspiring and empowering students to reach their full
+          potential.
+        </p>
+        <p class="text-2xl mb-4" id="self-intro-text-cn" style="display: none">
+          我是一位充满激情的钢琴老师，拥有超过20年的教学经验，致力于激励和赋能学生实现他们的潜力。
+        </p>
+        <p class="text-2xl mb-4" id="self-intro-p1-en">
+          As a senior registered piano teacher with the British Columbia Music
+          Teachers Association (BCRMTA) and the Royal Conservatory of Music
+          (RCM) in Canada, I bring professionalism and expertise to every
+          lesson. Additionally, I am an instructor for the Canadian Young
+          Artists Model Award.
+        </p>
+        <p class="text-2xl mb-4" id="self-intro-p1-cn" style="display: none">
+          我是加拿大BC省音乐教师协会注册钢琴老师（BCRMTA），加拿大RCM皇家音乐学院注册钢琴老师，加拿大青少年艺术家模范奖导师。
+        </p>
+        <p class="text-2xl mb-4" id="self-intro-p2-en">
+          I hold a bachelor’s degree in piano and have served as an associate
+          professor at a school of arts, as well as a judge for piano grade
+          examinations. My students have achieved outstanding success, earning
+          awards in prestigious competitions such as Kiwanis, Little Mozart,
+          Crescendo, Elite International Competition, and the Canada Festival.
+        </p>
+        <p class="text-2xl mb-4" id="self-intro-p2-cn" style="display: none">
+          毕业于专业音乐院校钢琴系。艺术学院副教授，钢琴考级评委。多名学生在kiwanis、little
+          Mozart 、Crescendo 、Elite international competition 、Canada festival
+          等重要钢琴🎹比赛中获奖🥇🥇🥇
+        </p>
+        <p class="text-2xl mb-4" id="self-intro-p3-en">
+          Known for my professional, rigorous, and engaging teaching style, I am
+          highly regarded by both children and parents. I specialize in
+          tailoring lessons to each student’s unique abilities and needs,
+          creating personalized and scientific teaching plans that enable rapid
+          and significant progress in a short time.
+        </p>
+        <p class="text-2xl mb-4" id="self-intro-p3-cn" style="display: none">
+          二十几年钢琴教学经验，通过专业、严谨、有趣的教学方法，深受孩子们和家长的喜爱。
+          善于因材施教，根据学生的不同特点和需求，科学制定教学方案，让学生的演奏水平在短期内得到快速提升。
+        </p>
+      </div>
+      <div class="flex justify-center rounded-lg">
+        <!-- Custom size for larger circular image -->
+        <img
+          src="./img/photo-with-dog.jpg"
+          alt="Ines photo with her pet dog"
+          class="rounded-full w-[480px] object-cover"
+        />
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer
+      class="bg-eerieblack text-ivory py-6 mx-auto flex flex-col md:flex-row justify-center md:justify-between items-center"
+    >
+      <!-- Logo and Contact Information Section (Left) -->
+      <div class="flex flex-row items-center justify-start mb-4 md:mb-0">
+        <a href="./index.html" class="mr-4">
+          <div class="logo"></div>
+        </a>
+        <div class="text-center md:text-left">
+          <p class="text-ivory"><i class="fas fa-phone"></i> 778-8555-384</p>
+          <p><i class="fas fa-envelope"></i> ines@163.com</p>
+        </div>
+      </div>
+      <div
+        class="flex space-x-4 mt-4 md:mt-0 justify-center md:justify-end social-btns"
+      >
+        <a class="btn facebook" href="#"><i class="fa fa-facebook"></i></a>
+        <a class="btn instagram" href="#"><i class="fa fa-instagram"></i></a>
+        <!-- <a class="btn twitter" href="#"><i class="fa fa-twitter"></i></a> -->
+        <!-- <a class="btn google" href="#"><i class="fa fa-google"></i></a> -->
+        <!-- <a class="btn pinterest" href="#"><i class="fa fa-pinterest"></i></a> -->
+      </div>
+    </footer>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./js/tailwindconfig.js"></script>
+    <script>
+      // Handle language switch
+      const toggleInput = document.getElementById("language-toggle");
+      const toggleBg = document.getElementById("toggle-bg");
+      const toggleCircle = document.getElementById("toggle-circle");
+
+      const elementsToTranslate = {
+        "about-link-en": " ",
+        "about-link-cn": " ",
+        "courses-link-en": " ",
+        "courses-link-cn": " ",
+        "contact-link-en": " ",
+        "contact-link-cn": " ",
+        "hero-heading-en": " ",
+        "hero-heading-cn": " ",
+        "hero-text-en": "",
+        "hero-text-cn": "",
+        "slogan-en": "",
+        "slogan-cn": "",
+        "self-intro-text-en": "",
+        "self-intro-text-cn": "",
+        "self-intro-p1-en": "",
+        "self-intro-p1-cn": "",
+        "self-intro-p2-en": "",
+        "self-intro-p2-cn": "",
+        "self-intro-p3-en": "",
+        "self-intro-p3-cn": "",
+      };
+
+      // Function to handle the toggle switch behavior
+      toggleInput.addEventListener("change", () => {
+        const isChecked = toggleInput.checked;
+        if (toggleInput.checked) {
+          toggleCircle.classList.add("translate-x-6");
+          console.log("Switched to 中文");
+        } else {
+          toggleCircle.classList.remove("translate-x-6");
+          console.log("Switched to English");
+        }
+
+        for (const [id] of Object.entries(elementsToTranslate)) {
+          const element = document.getElementById(id);
+          if (isChecked) {
+            element.style.display = id.includes("-cn") ? "block" : "none";
+          } else {
+            element.style.display = id.includes("-en") ? "block" : "none";
+          }
+        }
+      });
+    </script>
+  </body>
+</html>
